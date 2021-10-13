@@ -2,6 +2,8 @@ from django import forms
 from app.models import Student
 
 class StudentForm(forms.ModelForm):
-    class Meta:
-        model = Student
-        fields = ["name", 'bio', 'dream', 'job', 'hometown']
+    name = forms.CharField(max_length=50)
+    bio = forms.CharField(max_length=100)
+    dream = forms.CharField(max_length=100)
+    job = forms.CharField(max_length=50)
+    hometown = forms.CharField(max_length=50)
