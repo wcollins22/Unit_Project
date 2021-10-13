@@ -3,10 +3,7 @@ from app.models import Student
 
 # Create your views here.
 
-def home(request):
-<<<<<<< Updated upstream
-    return render(request,"home.html")
-=======
+def page_view(request):
     context = {
         "students" : {
             "Ethan Ward" : Student("Ethan Ward", "I'm 18 years old. I'm Taken. Favorite Color is Purple", "Dishwasher at Corner Store", "Bruce, MS"),
@@ -38,4 +35,6 @@ def home(request):
             "LOGAN T WILKINS" : Student("LOGAN T WILKINS", "I love video games and play a large variety of them my favorites being soul calibur, halo, for honor, skyrim and fallout 4. I enjoy various forms of art as any for of expressing creativity brings me joy, I like to draw, create ships in space engineers, build models in blender, paint, write, make characters in video games, build maps in halo, etc. I also love to spar, as in sword fighting or other weapons fighting and i have practiced many martial arts to improve my sword fighting capability. Some of the martial arts i have studied involve ", "Alternative rock is my top favorite, then there's instrumental, and dubstep... I also like christian rock", "All my life i've wanted a role in creating video game, and it aligns with many of my favorite things to do, how ever I have to one day open a HEMA academy to teach sword play and martial arts", "I currently work at Larsons Cashsaver Water Valley MS", "Memphis")
         }
     }
->>>>>>> Stashed changes
+
+    return render()
+
