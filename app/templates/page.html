@@ -1,2 +1,17 @@
 {% extends 'home.html' %}
-{% block content %}{% endblock content %}
+{% block content %}
+{% for name, info in students %}
+    {% if name == u_name %}
+        <h1>{{name.info}}</h1>
+    {% endif %}
+
+
+
+{% endfor %}
+
+
+
+
+
+
+{% endblock content %}
