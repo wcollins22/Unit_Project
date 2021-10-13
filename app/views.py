@@ -4,4 +4,4 @@ from app.forms import StudentForm
 # Create your views here.
 
 def home(request):
-    form = StudentForm()
+    return render(request,"home.html")
