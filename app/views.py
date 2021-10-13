@@ -5,13 +5,14 @@ from app.models import Student
 from app.forms import ProfileForm
 
 
-<<<<<<< Updated upstream
 def profile_function(request):
     form = ProfileForm(request.GET)
     if form.is_valid():
         name = form.cleaned_data["name"]
-        
-=======
+        return render(request, "profiles.html", {"form":form, "name":name})
+    else:
+        return render(request, "profiles.html",)
+
 def page_view(request):
     context = {
         "students" : {
@@ -45,8 +46,10 @@ def page_view(request):
         }
     }
     return render(request, "page.html", context)
->>>>>>> Stashed changes
 
-        return render(request, "profiles.html", {"form":form, "name":name})
-    else:
-        return render(request, "profiles.html",)
+def home_view(request, u_name):
+    context = {
+        "u_name" : u_name
+    }
+
+    return render(request, "home.html", context)
