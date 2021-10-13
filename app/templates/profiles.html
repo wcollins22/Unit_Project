@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <body>
+    <form action="{% url 'pf'%}" method="GET">
+      <p>BCCA PROFILE FINDER</p>
+
+      <label>
+        <p>Search Name:</p>
+        <input type="text" name="name" />
+      
+
+      <button>SEARCH</button>
+    </form>
+
+    {% if name == "Jacen Barefoot" %}
+    <p> {{name}} </p>
+    <p>Bio: I like to play Pokemon GO! Ayo</p>
+    <p>Location: Pontotoc City, MS</p>
+    <p>Dream: TO win a shiny Pokemon</p>
+    <p>Job: HomeTown Pizza<p>
+
+    {% elif name == "Ethan Ward"%}
+    <p> <p> {{name}} </p>
+    <p>Bio: Taken</p>
+    <p>Location: Bruce, MS</p>
+    <p>Dream: To make it in the music industry</p>
+    <p>Job: Dishwasher at Corner Store<p> </p>
+    {% elif name == "Quinton Summerford"%}
+     <p> {{name}} </p>
+    <p>Bio: I like pizza and long walks on the beach</p>
+    <p>Location: Lafette County</p>
+    <p>Dream: Marry Bill Gates</p>
+    <p>Job: None<p>
+    {% elif name == "Dylan Goad"%}
+    <p> </p>
+    {% elif name == "Dylan Shifton"%}
+    <p> </p>
+    {% elif name == "Ariyana Neal"%}
+    <p> </p>
+    {% elif name == "Mariann Mccord"%}
+    <p> </p>
+    {% elif name == "Will Collins"%}
+     <p> {{name}} </p>
+    <p>Bio: </p>
+    <p>Location: Bruce, MS</p>
+    <p>Dream:10 kids</p>
+    <p>Job: Dadd's money<p>
+    {% elif name == "Logan Coley"%}
+     <p> {{name}} </p>
+    <p>Bio: I like to play Pokemon GO! Ayo</p>
+    <p>Location: South Pontotoc</p>
+    <p>Dream: To own a game development company</p>
+    <p>Job: Mommy's store<p>
+    {% elif name == "Logan Wilkans"%}
+    <p> </p>
+    {% elif name == "Gary Lane"%}
+    <p> </p>
+    {% elif name == "Isaac Jones"%}
+    <p> </p>
+    {% elif name == "Ryan Bennett"%}
+    <p> </p>
+    {% elif name == "Richard Tutor"%}
+    <p> </p>
+    {% elif name == "Randy Trullet"%}
+    <p> </p>
+    {% elif name == "Justin Ashmore"%}
+    <p> </p>
+    {% elif name == "Rjay Pickering"%}
+    <p> </p>
+    {% elif name == "Daelan Hollingsworth"%}
+    <p> </p>
+    {% elif name == "Rylee Chisholm"%}
+    <p> </p>
+     {% elif name == "My'Kyla Person"%}
+    <p> </p>
+     {% elif name == "Ben Crosby"%}
+    <p> </p>
+     {% elif name == "Michelle Rankin"%}
+    <p> </p>
+
+    
+    {% endif %}
+
+  </body>
+</html>
