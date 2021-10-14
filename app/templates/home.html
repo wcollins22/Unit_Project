@@ -9,7 +9,7 @@
   </head>
     <body>
         <h1>Welcome to BCCAbook!</h1>
-        <form action="{% url 'hpnew'%}" method="GET">
+        <form action="{% url 'hpnew' %}" method="GET">
             <label>
                 <h1>Name:</h1>
                 <input type="text" name="name">
@@ -17,16 +17,8 @@
 
             <button>Search</button>
         </form>
-        {% for the_name, info in students.items %}
-            {% if the_name == name %}
-                <p> {{info.u_name}} </p>
-                <p> {{info.bio}}</p>
-                <p> {{info.fav_genre}} </p>
-                <p> {{info.dream}} </p>
-                <p> {{info.job}} </p>
-                <p> {{info.hometown}} </p>
-            {% endif %}
-        {% endfor %}
-        
+
+       <p>{{name}}</p>
+
     </body>
 </html>
