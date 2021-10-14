@@ -10,16 +10,21 @@
     </head>
     <body>
         <h1>Welcome to BCCAbook!</h1>
-        <form  action="{% url 'person' u_name %}" >
+        <form  action="{% url 'hpnew' %}" method=GET >
             <label>
                 <p>Name:</p>
-                <input type="text" name="u_name"></input>
+                <input type="text" name="name"></input>
             </label>
 
             <button>Search</button>
         </form>
         <main>
-        {% block content %}{% endblock content %}
+        <p> {{new_name}} </p>
+        <p> {{bio}}</p>
+        <p> {{genre}} </p>
+        <p> {{dream}} </p>
+        <p> {{job}} </p>
+        <p> {{hometown}} </p>
         </main>
     </body>
 </html
