@@ -10,8 +10,17 @@
     </head>
     <body>
         <h1>Welcome to BCCAbook!</h1>
-        <form>
+        <form  action="{% url 'person' u_name %}" >
+            <label>
+                <p>Name:</p>
+                <input type="text" name="u_name"></input>
+            </label>
+
+            <button>Search</button>
         </form>
+        <main>
+        {% block content %}{% endblock content %}
+        </main>
     </body>
 
 
