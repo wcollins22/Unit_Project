@@ -104,7 +104,8 @@ def homepage_view(request):
             "Isaac", 
             "Quinton Summerford", 
             "Ryan Bennett", 
-            "LOGAN T WILKINS"
+            "LOGAN T WILKINS",
+            "Jacen Barefoot"
         ]
     }
 
