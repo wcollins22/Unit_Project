@@ -101,3 +101,6 @@ def home_view(request, u_name):
     }
 
     return render(request, "home.html", context)
+
+
+
