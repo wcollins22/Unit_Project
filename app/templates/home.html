@@ -10,9 +10,16 @@
     </head>
     <body>
         <h1>Welcome to BCCAbook!</h1>
-        {% for name, info in students.items %}
-            <a href="{% url 'student' name %}"><h1>{{info.name}}</h1>
-            <h3>{{info.bio}}</h3>
-        {% endfor %}
+        <form  action="{% url 'person' u_name %}" >
+            <label>
+                <p>Name:</p>
+                <input type="text" name="u_name"></input>
+            </label>
+
+            <button>Search</button>
+        </form>
+        <main>
+        {% block content %}{% endblock content %}
+        </main>
     </body>
 </html
