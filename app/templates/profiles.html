@@ -1,22 +1,25 @@
+{% load static %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="{% static 'styles.css'%}">
   </head>
   <body>
-    <form action="{% url 'pf'%}" method="GET">
-      <p>BCCA PROFILE FINDER</p>
-
+    <nav>
+      <form action="{% url 'pf'%}" method="GET">
+      <h1 class="title">BCCA PROFILE FINDER</p>
+  
       <label>
         <p>Search Name:</p>
         <input type="text" name="name" />
       
 
-      <button>SEARCH</button>
-    </form>
-
+        <button>SEARCH</button>
+      </form>
+    </nav>
     {% if name == "Jacen Barefoot" %}
     <p> {{name}} </p>
     <p>Bio: I like to play Pokemon GO! Ayo</p>
@@ -31,6 +34,8 @@
     <p>Location: Bruce, MS</p>
     <p>Dream: To land a job in Cspire and grow my music</p>
     <p>Job: Dishwasher at Corner Store<p> </p>
+
+
     {% elif name == "Quinton Summerford"%}
      <p> {{name}} </p>
     <p>Bio: Blue Pill or Red Pill?
@@ -42,6 +47,7 @@
     <p> Music: Nightcore</p>
     <p>Dream: To defeat the sussy little dragon of Cthulhu</p>
     <p>Job:Discord Admin</p>
+    
     {% elif name == "Dylan Goad"%}
     <p> {{name}} </p>
     <p>Bio: I liek turtles </p>
@@ -75,10 +81,12 @@
 
     {% elif name == "Will Collins"%}
      <p> {{name}} </p>
-    <p>Bio: </p>
+    <p>Bio: I eat chocolate</p>
     <p>Location: Bruce, MS</p>
     <p>Dream:10 kids</p>
     <p>Job: Dadd's money<p>
+
+
     {% elif name == "Logan Coley"%}
      <p> {{name}} </p>
     <p>Bio: I like to play Pokemon GO!</p>

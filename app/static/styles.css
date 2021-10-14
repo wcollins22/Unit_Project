@@ -1,3 +1,24 @@
-body {
-    background-image: linear-gradient(to bottom right, blue,  white);
-  }
+.body {
+    background-image: linear-gradient(to right, rgb(127 211 238),  white);
+    
+}
+
+
+
+.title{
+    padding: 2em;
+    margin-left: -2em;
+    margin-right: -2em;
+    margin-top: -1em;
+    border-bottom: solid black;
+    background: rgb(127 211 238);
+    color: white;
+    text-align: center;
+}
+
+.p{
+    text-align: center;
+
+
+
+}
