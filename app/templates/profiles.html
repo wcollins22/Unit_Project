@@ -22,7 +22,7 @@
     </nav>
     {% if name == "Jacen Barefoot" %}
     
-      <p> {{name}} </p>
+      <h1> {{name}} </h1>
     <nav>
       <h2>Bio: </h2>
       <p>I like to play Pokemon GO! Ayo</p>
@@ -35,8 +35,9 @@
     </nav>
 
     {% elif name == "Ethan Ward" or name == "Ethan"%}
-    <nav>
-      <p> {{name}} </p>
+    <h1> {{name}} </h1>
+    <div>
+      
       <h2>Bio: </h2>
       <p>I'm 18 years old. I'm Taken. Favorite Color is Purple</p>
       <h2> Music: </h2>
@@ -47,11 +48,12 @@
       <p>To land a job in Cspire and grow my music</p>
       <h2>Job: </h2>
       <p>Dishwasher at Corner Store</p> 
-    </nav>
+    </div>
 
     {% elif name == "Quinton Summerford"%}
-    <nav>
-      <p> {{name}} </p>
+    <h1> {{name}} </h1>
+    <div>
+      
       <h2> Bio:</h2>
       <p> Blue Pill or Red Pill?
 
@@ -66,20 +68,23 @@
       <p>To defeat the sussy little dragon of Cthulhu</p>
       <h2>Job: </h2>
       <p>Discord Admin</p>
-    </nav>
+    </div>
 
     {% elif name == "Dylan Goad"%}
-    <p> {{name}} </p>
-    <h2> Bio:</h2>
-    <p> I like turtles </p>
-    <h2>Music: </h2>
-    <p> Minecraft Parodies</p>
-    <h2> Location:</h2>
-    <p> Charleston, Mississippi</p>
-    <h2> Dream:</h2>
-    <p> Work for NASA </p>
-    <h2> Job:</h2>
-    <p> Unemployed<p>
+    <h1> {{name}} </h1>
+    <div>
+      
+      <h2> Bio:</h2>
+      <p> I like turtles </p>
+      <h2>Music: </h2>
+      <p> Minecraft Parodies</p>
+      <h2> Location:</h2>
+      <p> Charleston, Mississippi</p>
+      <h2> Dream:</h2>
+      <p> Work for NASA </p>
+      <h2> Job:</h2>
+      <p> Unemployed<p>
+    </div>
 
 
     {% elif name == "Dylan Shifton" or name == "Asian Markiplier"%}
@@ -104,8 +109,9 @@
     
 
     {% elif name == "Mariann Mccord" or name == "Mariann"%}
-    <nav>
-      <p>{{name}}</p>
+    <h1> {{name}} </h1>
+    <div>
+      
       <h2> Bio:</h2>
       <p>I am 18 years old and I enjoy listening to music in my free time along with reading, watching TV, and sleeping. </p>
       <h2>Dream: </h2>
@@ -118,12 +124,14 @@
       <p> Oxford</p>
       <h2> Job:</h2>
       <p> I currently work at the Newk's on University Ave in Oxford,MS. <p>
-    </nav>
+    </div>
+
 
 
     {% elif name == "Will Collins"%}
-    <nav>
-      <p> {{name}} </p>
+    <h1> {{name}} </h1>
+    <div>
+      
       <h2>Bio: </h2>
       <p> I eat chocolate</p>
       <h2> Location:</h2>
@@ -132,12 +140,13 @@
       <p>10 kids</p>
       <h2>Job: </h2>
       <p>Dadd's money<p>
-    </nav>
+    </div>
 
 
     {% elif name == "Logan Coley"%}
-    <nav>
-      <p> {{name}} </p>
+    <h1> {{name}} </h1>
+    <div>
+      
       <h2> Bio:</h2>
       <p> I like to play Pokemon GO!</p>
       <h2> Location:</h2>
@@ -146,11 +155,13 @@
       <p> To own a game development company</p>
       <h2> Job:</h2>
       <p> Mommy's store<p>
-    </nav>
+    </div>
 
     {% elif name == "Logan Wilkans"%}
-    <nav>
-      <p> {{name}} </p>
+    <h1> {{name}} </h1>
+    {% load static %} <img src="{% static "Unit_Project/images/loganw.jpg" %}" alt="home" />
+    <div>
+     
       <h2> Bio:</h2>
       <p> I love video games and play a large variety of them my favorites being soul calibur, halo, for honor, skyrim and fallout 4. I enjoy various forms of art as any for of expressing creativity brings me joy, I like to draw, create ships in space engineers, build models in blender, paint, write, make characters in video games, build maps in halo, etc. I also love to spar, as in sword fighting or other weapons fighting and i have practiced many martial arts to improve my sword fighting capability. Some of the martial arts i have studied involve </p>
       <h2> Dream:</h2>
@@ -161,12 +172,14 @@
       <p> Memphis</p>
       <h2>Job: </h2>
       <p>  I currently work at Larsons Cashsaver Water Valley MS<p>
-      </nav>
+      </div>
 
 
     {% elif name == "Isaac Jones"%}
-    <nav>
-      <p> {{name}}</p>
+    <h1> {{name}} </h1>
+    <img src="images/isaac.png">
+    <div>
+      
       <h2>Bio: </h2>
       <p> I like to make things. I have a lot of creative hobbies. Drawing, Jewelry making, sewing, and playing instruments.</p>
       <h2> Dream:</h2>
@@ -179,11 +192,12 @@
       <p> Oxford </p>
       <h2>Job:</h2>
       <p>Server at Newk's Eatery <p>
-    </nav>
+    </div>
 
     {% elif name == "Ryan Bennett"%}
-    <nav>
-      <p> {{name}} </p>
+    <h1> {{name}} </h1>
+    <div>
+      
       <h2>Bio: </h2>
       <p> I'm a boring guy who plays video games.</p>
       <h2> Music:</h2>
@@ -196,61 +210,106 @@
       <p> Saltillo, Mississippi</p>
       <h2>Job: </h2>
       <p> Server/Delivery Driver<p>
-    </nav>
+    </div>
     
     {% elif name == "Randy Trullet"%}
-    <p> {{name}}</p>
-     <p>Bio:"Oh my days"
-        British Wannabe
-        Future Application Developer</p>
-    <p> Music: Melbourne Bounce and Folk</p>
-    <p>Dream: I want a house and a dog, that's about it. Also want a computer, that's a priority</p>
-    <p>Location: Corinth, MS</p>
-    
-    <p>Job: Student <p>
+   
+    <h1> {{name}}</h1>
+    <div>
+      <h2>Bio: </h2>
+      <p>"Oh my days"
+          British Wannabe
+          Future Application Developer</p>
+      <h2>Music: </h2>
+      <p> Melbourne Bounce and Folk</p>
+      <h2>Dream:</h2>
+      <p> I want a house and a dog, that's about it. Also want a computer, that's a priority</p>
+      <h2>Location: </h2>
+      <p> Corinth, MS</p>
+      <h2> Job:</h2>
+      <p> Student <p>
+    </div>
 
 
     {% elif name == "Justin Ashmore"%}
-    <p> {{name}} </p>
-    <p>Bio: I like to snack on chips, watch cop shows, and play video games</p>
-    <p>Dream: Have a big family and have good amount of money</p>
-    <p> Born Location: Florida</p>
-    <p>Location: Bruce, MS</p>
-    <p>Job:  Sosa Law Care<p>
+    
+    <h1> {{name}} </h1>
+    <div>
+      <h2>Bio: </h2>
+      <p> I like to snack on chips, watch cop shows, and play video games</p>
+      <h2>Dream: </h2>
+      <p> Have a big family and have good amount of money</p>
+      <h2>Born Location: </h2>
+      <p>  Florida</p>
+      <h2> Location:</h2>
+      <p> Bruce, MS</p>
+      <h2>Job: </h2>
+      <p> Sosa Law Care<p>
+    </div>
 
 
     {% elif name == "RJay Pickering"%}
-    <p> {{name}}</p>
-    <p>Bio: I like to play video games and fix broken vehicles.  i use to go to the gym alot and i love working around a farm</p>
-    <p>Dream: videogame designer </p>
-    <p>Music: heavy rock</p>
-    
-    <p>Location: Pontotoc, MS</p>
-    <p>Job: student/farmer <p>
+    <h1> {{name}}</h1>
+    <div>
+      <h2> Bio: </h2>
+      <p> I like to play video games and fix broken vehicles.  i use to go to the gym alot and i love working around a farm</p>
+      <h2> Dream:</h2>
+      <p> videogame designer </p>
+      <h2> Music:</h2>
+      <p> heavy rock</p>
+      <h2> Location:</h2>
+      <p> Pontotoc, MS</p>
+      <h2> Job:</h2>
+      <p> student/farmer <p>
+    </div>
     {% elif name == "Daelan Hollingsworth" or name == "Daelan"%}
-     <p>Bio: I have always liked to play video games and I was in band.</p>
-    <p>Dream: None</p>
-    <p> Music: Any music will do. </p>
-    <p>Location: Pontotoc, MS </p>
-    <p>Job: I deliver at Domino's. <p>
+    <h1> {{name}}</h1>
+    <div>
+      <h2>Bio: </h2>
+      <p> I have always liked to play video games and I was in band.</p>
+      <h2>Dream: </h2>
+      <p> None</p>
+      <h2> Music:</h2>
+      <p>Any music will do. </p>
+      <h2> Location:</h2>
+      <p> Pontotoc, MS </p>
+      <h2> Job:</h2>
+      <p> I deliver at Domino's. <p>
+    </div>
 
 
     {% elif name == "Rylee Chisholm"%}
-     <p>Bio:5'5 and clingy, but thats okay.</p>
-    <p>Dream: To be 6ft tall.  I did dream once about this really weird fun house with a serial killer dressed as a neon pumpkin. </p>
-    <p> Music: Pop and anything that sounds terrible.</p>
-    <p> Born Location: Mom</p>
-   
-    <p>Job:  Hometown Pizza delivery driver and cook<p>
+    <h1> {{name}}</h1>
+    <div>
+      <h2>Bio: </h2>
+      <p>5'5 and clingy, but thats okay.</p>
+      <h2>Dream: </h2>
+      <p> To be 6ft tall.  I did dream once about this really weird fun house with a serial killer dressed as a neon pumpkin. </p>
+      <h2>Music: </h2>
+      <p>  Pop and anything that sounds terrible.</p>
+      <h2>Born Location: </h2>
+      <p> Mom</p>
+      <h2>Job: </h2>
+      <p> Hometown Pizza delivery driver and cook<p>
+    </div>
      
      
      {% elif name == "Michelle Rankin"%}
-    <p>Bio: Lazy, Uncoordinated , Unprofessional, Hard Working </p>
-    <p>Dream: Make the Mula </p>
-    <p> Music: Post Hardcore</p>
-    <p> Born Location: Louisiana</p>
-    <p>Location: Oxford</p>
-    <p>Job: Server at HomeTown Pizza <p>
+     <h1> {{name}} </h1>
+     <div>
+        <h2>Bio: </h2>
+        <p> Lazy, Uncoordinated , Unprofessional, Hard Working </p>
+        <h2>Dream: </h2>
+        <p> Make the Mula </p>
+        <h2>Music: </h2>
+        <p> Post Hardcore</p>
+        <h2>Born Location: </h2>
+        <p> Louisiana</p>
+        <h2>Location: </h2>
+        <p>Oxford</p>
+        <h2> Job:</h2>
+        <p> Server at HomeTown Pizza <p>
+     </div>
 
     {% else %}
     <p> Person does not attend BCCA or Does not currently have a profile</p>
