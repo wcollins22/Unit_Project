@@ -1,17 +1,17 @@
 body {
-    background-image: linear-gradient(to right, rgb(127 211 238), white);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  background-image: linear-gradient(to right, rgb(127 211 238), white);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 a {
-    font-size: large;
+  font-size: large;
 }
 
 h3 {
-    margin-left: 250px;
-    margin-right: 250px;
+  margin-left: 250px;
+  margin-right: 250px;
 }
 
 img {
@@ -19,8 +19,5 @@ img {
     height: 12em;
     border-radius: 70%;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
     padding: 1em;
-    margin-top: -10px;
 }

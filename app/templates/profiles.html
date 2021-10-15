@@ -18,9 +18,16 @@
       </form>
     </nav>
     {% if name == "Jacen Barefoot" %}
-      <h1 class="center"> {{name}} </h1>
-       {% load static %} <img src="{% static "images/Jacen Barefoot.png" %}" class="img" />
-      <div>
+      <div class="row">
+        <div class="column">
+         
+           {% load static %} <img src="{% static "images/Jacen Barefoot.png" %}" class="img" />
+        </div>
+        <div class="column">
+         <h1 class="center"> {{name}} </h1>
+        </div>
+      </div>
+      <div class="lowbox">
         <h2>Bio: </h2>
         <p class="one">I like to play Pokemon GO! Ayo</p>
         <h2>Location:</h2>
@@ -31,10 +38,17 @@
         <p class="one">HomeTown Pizza</p>
       </div>
     {% elif name == "Ethan Ward" or name == "Ethan"%}
-    <h1 class="center"> {{name}} </h1>
-     {% load static %} <img src="{% static "images/Ethan Ward.jpg" %}" class="img2" />
+    <div class="row">
+        <div class="column">
+         
+           {% load static %} <img src="{% static "images/Ethan Ward.jpg" %}" class="img3" />
+        </div>
+        <div class="column">
+         <h1 class="center"> {{name}} </h1>
+        </div>
+      </div>
 
-    <div>
+    <div class="lowbox">
       <h2>Bio: </h2>
       <p class="one">I’m 18 years old. I’m Taken. Favorite Color is Purple</p>
       <h2> Music: </h2>
@@ -47,9 +61,16 @@
       <p class="one">Dishwasher at Corner Store</p>
     </div>
     {% elif name == "Quinton Summerford"%}
-    <h1 class= "center"> {{name}} </h1>
-     {% load static %} <img src="{% static "images/Quinton Summerford.png" %}" class="img" />
-    <div>
+      <div class="row">
+        <div class="column">
+         
+           {% load static %} <img src="{% static "images/Quinton Summerford.png" %}" class="img" />
+        </div>
+        <div class="column">
+         <h1 class="center"> {{name}} </h1>
+        </div>
+      </div>
+    <div class="lowbox">
       <h2> Bio:</h2>
       <p class="one"> Blue Pill or Red Pill?
       Blue: Blueberry flavor
@@ -64,9 +85,16 @@
       <p class="one">Discord Admin</p>
     </div>
     {% elif name == "Dylan Goad"%}
-    <h1 class="center"> {{name}} </h1>
-    {% load static %} <img src="{% static "images/Dylan Goad.png" %}" class="img" />
-    <div>
+      <div class="row">
+        <div class="column">
+         
+           {% load static %} <img src="{% static "images/Dylan Goad.png" %}" class="img" />
+        </div>
+        <div class="column">
+         <h1 class="center"> {{name}} </h1>
+        </div>
+      </div>
+    <div class="lowbox">
       <h2> Bio:</h2>
       <p class="one"> I like turtles </p>
       <h2>Music: </h2>
@@ -81,7 +109,7 @@
     {% elif name == "Dylan Shipton" or name == "Asian Markiplier"%}
     <h1 class="center"> {{name}} </h1>
     {% load static %} <img src="{% static "images/Dylan Shipton.png" %}" class="img" />
-    <div>
+    <div class="lowbox">
       <h2> Bio: </h2>
       <p class="one"> Am Wasian. Am Weeb. Am Saucy Housewife.</p>
       <h2>Dream:</h2>
@@ -96,9 +124,16 @@
       <p class="one"> Pizza Boi <p>
     </div>
     {% elif name == "Mariann Mccord" or name == "Mariann"%}
-    <h1 class = "center"> {{name}} </h1>
-    {% load static %} <img src="{% static "images/Marianne.JPEG" %}" class="img" />
-    <div>
+      <div class="row">
+        <div class="column">
+         
+           {% load static %} <img src="{% static "images/Mariann.JPEG" %}" class="img" />
+        </div>
+        <div class="column">
+         <h1 class="center"> {{name}} </h1>
+        </div>
+      </div>
+    <div class="lowbox">
       <h2> Bio:</h2>
       <p class ="one">I am 18 years old and I enjoy listening to music in my free time along with reading, watching TV, and sleeping. </p>
       <h2>Dream: </h2>
@@ -113,9 +148,16 @@
       <p class ="one"> I currently work at the Newk’s on University Ave in Oxford,MS. <p>
     </div>
     {% elif name == "Will Collins"%}
-    <h1 class="center"> {{name}} </h1>
-     {% load static %} <img src="{% static "images/Will Collins.png" %}" class="img" />
-    <div>
+      <div class="row">
+        <div class="column">
+         
+           {% load static %} <img src="{% static "images/Will Collins.png" %}" class="img" />
+        </div>
+        <div class="column">
+         <h1 class="center"> {{name}} </h1>
+        </div>
+      </div>
+    <div class="lowbox">
       <h2>Bio: </h2>
       <p class="one"> I eat chocolate</p>
       <h2> Location:</h2>
@@ -126,9 +168,16 @@
       <p class="one">Dadd’s money</p>
     </div>
     {% elif name == "Logan Coley"%}
-    <h1 class="center"> {{name}} </h1>
-     {% load static %} <img src="{% static "images/Logan Coley.jpeg" %}" class="img" />
-    <div>
+      <div class="row">
+        <div class="column">
+         
+           {% load static %} <img src="{% static "images/Logan Coley.jpeg" %}" class="img" />
+        </div>
+        <div class="column">
+         <h1 class="center"> {{name}} </h1>
+        </div>
+      </div>
+    <div class="lowbox">
       <h2> Bio:</h2>
       <p class="one"> I like to play Pokemon GO!</p>
       <h2> Location:</h2>
@@ -139,9 +188,16 @@
       <p class="one"> Mommy’s store<p>
     </div>
     {% elif name == "Logan Wilkins" or name == "LOGAN T WILKINS"%}
-    <h1 class="center"> {{name}} </h1>
-    {% load static %} <img src="{% static "images/LOGAN T WILKINS.jpg" %}" class="img" />
-    <div>
+      <div class="row">
+        <div class="column">
+         
+           {% load static %} <img src="{% static "images/LOGAN T WILKINS.jpg" %}" class="img" />
+        </div>
+        <div class="column">
+         <h1 class="center"> {{name}} </h1>
+        </div>
+      </div>
+    <div class="lowbox">
       <h2> Bio:</h2>
       <p class="one"> I love video games and play a large variety of them my favorites being soul calibur, halo, for honor, skyrim and fallout 4. I enjoy various forms of art as any for of expressing creativity brings me joy, I like to draw, create ships in space engineers, build models in blender, paint, write, make characters in video games, build maps in halo, etc. I also love to spar, as in sword fighting or other weapons fighting and i have practiced many martial arts to improve my sword fighting capability. Some of the martial arts i have studied involve </p>
       <h2> Dream:</h2>
@@ -154,9 +210,16 @@
       <p class="one">  I currently work at Larsons Cashsaver Water Valley MS<p>
       </div>
     {% elif name == "Isaac Jones" or name == "Isaac"%}
-    <h1 class = "center"> {{name}} </h1>
-    {% load static %} <img src="{% static "images/Isaac.png" %}" class="img" />
-    <div>
+      <div class="row">
+        <div class="column">
+         
+           {% load static %} <img src="{% static "images/Isaac.png" %}" class="img" />
+        </div>
+        <div class="column">
+         <h1 class="center"> {{name}} </h1>
+        </div>
+      </div>
+    <div class="lowbox">
       <h2>Bio: </h2>
       <p class="one"> I like to make things. I have a lot of creative hobbies. Drawing, Jewelry making, sewing, and playing instruments.</p>
       <h2> Dream:</h2>
@@ -171,9 +234,16 @@
       <p class="one">Server at Newk’s Eatery <p>
     </div>
     {% elif name == "Ryan Bennett"%}
-    <h1 class="center"> {{name}} </h1>
-     {% load static %} <img src="{% static "images/Ryan Bennett.jpg" %}" class="img" />
-    <div>
+      <div class="row">
+        <div class="column">
+         
+           {% load static %} <img src="{% static "images/Ryan Bennett.jpg" %}" class="img" />
+        </div>
+        <div class="column">
+         <h1 class="center"> {{name}} </h1>
+        </div>
+      </div>
+    <div class="lowbox">
       <h2>Bio: </h2>
       <p class="one"> I’m a boring guy who plays video games.</p>
       <h2> Music:</h2>
@@ -188,9 +258,16 @@
       <p class="one"> Server/Delivery Driver</p>
     </div>
     {% elif name == "Randy Trullet"%}
-    <h1 class="center"> {{name}}</h1>
-     {% load static %} <img src="{% static "images/Randy Trullet.png" %}" class="img" />
-    <div>
+      <div class="row">
+        <div class="column">
+         
+           {% load static %} <img src="{% static "images/Randy Trullet.png" %}" class="img" />
+        </div>
+        <div class="column">
+         <h1 class="center"> {{name}} </h1>
+        </div>
+      </div>
+    <div class="lowbox">
       <h2>Bio: </h2>
       <p class="one">“Oh my days”
           British Wannabe
@@ -204,10 +281,17 @@
       <h2> Job:</h2>
       <p class="one"> Student </p>
     </div>
-    {% elif name == "Justin Ashmore"%}
-    <h1 class="center"> {{name}} </h1>
-     {% load static %} <img src="{% static "images/Justin Ashmore.png" %}" class="img" />
-    <div>
+    {% elif name == "Justin Ashmore" or name == "Me"%}
+      <div class="row">
+        <div class="column">
+         
+           {% load static %} <img src="{% static "images/Justin Ashmore.png" %}" class="img" />
+        </div>
+        <div class="column">
+         <h1 class="center"> {{name}} </h1>
+        </div>
+      </div>
+    <div class="lowbox">
       <h2>Bio: </h2>
       <p class="one"> I like to snack on chips, watch cop shows, and play video games</p>
       <h2>Dream: </h2>
@@ -219,10 +303,17 @@
       <h2>Job: </h2>
       <p class="one"> Sosa Law Care</p>
     </div>
-    {% elif name == "RJay Pickering"%}
-    <h1 class="center"> {{name}}</h1>
-    {% load static %} <img src="{% static "images/RJay.jpeg" %}" class="img" />
-    <div>
+    {% elif name == "RJay Pickering" or name == "RJay"%}
+      <div class="row">
+        <div class="column">
+         
+           {% load static %} <img src="{% static "images/RJay.jpeg" %}" class="img" />
+        </div>
+        <div class="column">
+         <h1 class="center"> {{name}} </h1>
+        </div>
+      </div>
+    <div class="lowbox">
       <h2> Bio: </h2>
       <p class="one"> I like to play video games and fix broken vehicles.  i use to go to the gym alot and i love working around a farm</p>
       <h2> Dream:</h2>
@@ -235,9 +326,16 @@
       <p class="one"> student/farmer </p>
     </div>
     {% elif name == "Daelan Hollingsworth" or name == "Daelan"%}
-    <h1 class="center"> {{name}}</h1>
-     {% load static %} <img src="{% static "images/Daelan.jpg" %}" class="img" />
-    <div>
+      <div class="row">
+        <div class="column">
+         
+           {% load static %} <img src="{% static "images/Daelan.jpg" %}" class="img" />
+        </div>
+        <div class="column">
+         <h1 class="center"> {{name}} </h1>
+        </div>
+      </div>
+    <div class="lowbox">
       <h2>Bio: </h2>
       <p class="one"> I have always liked to play video games and I was in band.</p>
       <h2>Dream: </h2>
@@ -249,10 +347,17 @@
       <h2> Job:</h2>
       <p class="one"> I deliver at Domino’s. </p>
     </div>
-    {% elif name == "Rylee Chisholm"%}
-    <h1 class="center"> {{name}}</h1>
-    {% load static %} <img src="{% static "images/Rylee Chisolm.png" %}" class="img1" />
-    <div>
+    {% elif name == "Rylee Chisolm"%}
+      <div class="row">
+        <div class="column">
+         
+           {% load static %} <img src="{% static "images/Rylee Chisolm.png" %}" class="img2" />
+        </div>
+        <div class="column">
+         <h1 class="center"> {{name}} </h1>
+        </div>
+      </div>
+    <div class="lowbox">
       <h2>Bio: </h2>
       <p class="one">5'5 and clingy, but thats okay.</p>
       <h2>Dream: </h2>
@@ -265,9 +370,16 @@
       <p class="one"> Hometown Pizza delivery driver and cook</p>
     </div>
      {% elif name == "Michelle Rankin"%}
-     <h1 class="center"> {{name}} </h1>
-      {% load static %} <img src="{% static "images/Michelle Rankin.jpg" %}" class="img" />
-     <div>
+      <div class="row">
+        <div class="column">
+         
+           {% load static %} <img src="{% static "images/Michelle Rankin.jpg" %}" class="img" />
+        </div>
+        <div class="column">
+         <h1 class="center"> {{name}} </h1>
+        </div>
+      </div>
+     <div class="lowbox">
         <h2>Bio: </h2>
         <p class="one"> Lazy, Uncoordinated , Unprofessional, Hard Working </p>
         <h2>Dream: </h2>
