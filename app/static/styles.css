@@ -26,9 +26,9 @@ ul {
 }
 
 div {
-  border: solid 5px white;
-  border-right: solid 10px rgb(127 211 238);
-  border-bottom: solid 10px rgb(127 211 238);
+  border: solid 10px white;
+  border-right: solid 15px rgb(127 211 238);
+  border-bottom: solid 15px rgb(127 211 238);
 }
 
 .homelink {
