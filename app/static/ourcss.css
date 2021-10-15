@@ -21,3 +21,20 @@ img {
     display: block;
     padding: 1em;
 }
+
+div {
+    width: 88em;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    list-style-type: none;
+}
+
+li {
+    padding-left: 2.2em;
+    padding-top: 2.2em;
+}
