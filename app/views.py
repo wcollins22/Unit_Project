@@ -19,7 +19,7 @@ students = {
 
             "Rylee Chisholm" : Student("Rylee Chisholm", "5'5 and clingy, but thats okay.", "Pop and anything that sounds terrible.", "To be 6ft tall.  I did dream once about this really weird fun house with a serial killer dressed as a neon pumpkin.", "Hometown Pizza delivery driver and cook", "Mom"),
 
-            "Asian Markiplier" : Student("Asian Markiplier", "Am Wasian. Am Weeb. Am Saucy Housewife.", "Everything except for rap.", "To become best Wasian.", "Pizza Boi", "Hidden Leaf Village"),
+            "Dylan Shipton" : Student("Dylan Shipton", "Am Wasian. Am Weeb. Am Saucy Housewife.", "Everything except for rap.", "To become best Wasian.", "Pizza Boi", "Hidden Leaf Village"),
 
             "Daelan" : Student("Daelan", "I have always liked to play video games and I was in band.", "Any music will do.", "<NONE>", "I deliver at Domino's.", "Pontotoc, MS"),
 
