@@ -25,30 +25,14 @@ ul {
   list-style-type: none;
 }
 
-div {
-  border: solid 10px white;
-  border-right: solid 15px rgb(127 211 238);
-  border-bottom: solid 15px rgb(127 211 238);
-}
-
 .homelink {
   margin-left: auto;
   margin-right: auto;
 }
 
-.img {
-  width: 300px;
-  height: 200px;
-  border-radius: 70%;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 1em;
-  margin-top: -10px;
-}
-
 .center {
-  text-align: center;
+  margin-left: -40px;
+  margin-top: 30px;
 }
 
 p.one {
@@ -60,28 +44,6 @@ h2 {
   border-bottom: solid black;
   font-size: 25px;
   padding-left: 5px;
-}
-
-.img1 {
-  width: 300px;
-  height: 500px;
-  border-radius: 70%;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 0;
-  margin-bottom: -7em;
-  margin-top: -10em;
-}
-.img2 {
-  width: 400px;
-  height: 300px;
-  border-radius: 70%;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 1em;
-  margin-top: -10px;
 }
 
 body {
@@ -107,39 +69,25 @@ ul {
   flex-wrap: wrap;
   list-style-type: none;
 }
-div {
-  border: solid 5px white;
-  border-right: solid 10px rgb(127 211 238);
-  border-bottom: solid 10px rgb(127 211 238);
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  height: 10em;
-  width: 88em;
+.lowbox {
+  border: solid 10px white;
+  border-right: solid 15px rgb(127 211 238);
+  border-bottom: solid 15px rgb(127 211 238);
 }
 .homelink {
   margin-left: auto;
   margin-right: auto;
 }
 .img {
-  width: 300px;
-  height: 200px;
+  width: 70px;
+  height: 70px;
   border-radius: 70%;
   display: block;
   margin-left: auto;
-  margin-right: auto;
+  margin-right: 2em;
   padding: 1em;
-  margin-top: -10px;
 }
-.center {
-  text-align: center;
-}
-p.one {
-  font-family: Georgia, "Times New Roman", Times, serif;
-}
-h2 {
-  border-bottom: solid black;
-}
+
 .img1 {
   width: 300px;
   height: 500px;
@@ -152,12 +100,32 @@ h2 {
   margin-top: -10em;
 }
 .img2 {
-  width: 400px;
-  height: 300px;
+  width: 200px;
+  height: 150px;
+  border-radius: 70%;
+  display: block;
+  margin-left: 5em;
+  margin-right: auto;
+  padding: 1em;
+  margin-top: -40px;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 33.33%;
+  padding: 5px;
+}
+
+.img3 {
+  width: 100px;
+  height: 100px;
   border-radius: 70%;
   display: block;
   margin-left: auto;
-  margin-right: auto;
+  margin-right: 2em;
   padding: 1em;
-  margin-top: -10px;
+  margin-top: -1em;
 }
