@@ -1,7 +1,16 @@
-a {
-    margin-left: 500px;
-}
-
 body {
     background-image: linear-gradient(to right, rgb(127 211 238), white);
-  }
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+a {
+    font-size: large;
+}
+
+h3 {
+    margin-left: 250px;
+    margin-right: 250px;
+}
+
