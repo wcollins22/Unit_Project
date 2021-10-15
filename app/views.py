@@ -110,15 +110,6 @@ def homepage_view(request):
     }
 
     return render(request, "home.html", context)
-<<<<<<< HEAD
 
 
 
-=======
-    
-    
-    
-
-    
-    
->>>>>>> 33583434129e181da1c65ed0820a13be925c450a
