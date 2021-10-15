@@ -11,182 +11,278 @@
     <nav>
       <form action="{% url 'pf'%}" method="GET">
       <h1 class="title">BCCA PROFILE FINDER</p>
-  
       <label>
         <p>Search Name:</p>
-        <input type="text" name="name" />
-      
-
+        <input type=“text” name="name"/>
         <button>SEARCH</button>
       </form>
     </nav>
     {% if name == "Jacen Barefoot" %}
-    <p> {{name}} </p>
-    <p>Bio: I like to play Pokemon GO! Ayo</p>
-    <p>Location: Pontotoc City, MS</p>
-    <p>Dream: TO win a shiny Pokemon</p>
-    <p>Job: HomeTown Pizza<p>
-
+      <h1 class="center"> {{name}} </h1>
+       {% load static %} <img src="{% static "images/jacen.png" %}" class="img" />
+    <nav>
+      <h2>Bio: </h2>
+      <p class="one">I like to play Pokemon GO! Ayo</p>
+      <h2>Location:</h2>
+      <p class="one">Pontotoc City, MS</p>
+      <h2>Dream:</h2>
+      <p class="one">TO win a shiny Pokemon</p>
+      <h2>Job:</h2>
+      <p class="one">HomeTown Pizza</p>
+    </nav>
     {% elif name == "Ethan Ward" or name == "Ethan"%}
-    <p> <p> {{name}} </p>
-    <p>Bio: I'm 18 years old. I'm Taken. Favorite Color is Purple</p>
-    <p> Music: Grunge</p>
-    <p>Location: Bruce, MS</p>
-    <p>Dream: To land a job in Cspire and grow my music</p>
-    <p>Job: Dishwasher at Corner Store<p> </p>
+    <h1 class="center"> {{name}} </h1>
+     {% load static %} <img src="{% static "images/ehtan.jpg" %}" class="img2" />
 
-
+    <div>
+      <h2>Bio: </h2>
+      <p class="one">I’m 18 years old. I’m Taken. Favorite Color is Purple</p>
+      <h2> Music: </h2>
+      <p class="one">Grunge</p>
+      <h2>Location: </h2>
+      <p class="one"> Bruce, MS</p>
+      <h2>Dream: </h2>
+      <p class="one">To land a job in Cspire and grow my music</p>
+      <h2>Job: </h2>
+      <p class="one">Dishwasher at Corner Store</p>
+    </div>
     {% elif name == "Quinton Summerford"%}
-     <p> {{name}} </p>
-    <p>Bio: Blue Pill or Red Pill?
-
-    Blue: Blueberry flavor
-
-    Red: Infinite Money</p>
-    <p>Location: White Plains, NY</p>
-    <p> Music: Nightcore</p>
-    <p>Dream: To defeat the sussy little dragon of Cthulhu</p>
-    <p>Job:Discord Admin</p>
-
+    <h1 class= "center"> {{name}} </h1>
+     {% load static %} <img src="{% static "images/image.png" %}" class="img" />
+    <div>
+      <h2> Bio:</h2>
+      <p class="one"> Blue Pill or Red Pill?
+      Blue: Blueberry flavor
+      Red: Infinite Money</p>
+      <h2> Location:</h2>
+      <p class="one">White Plains, NY</p>
+      <h2> Music</h2>
+      <p class="one"> Nightcore</p>
+      <h2> Dream:</h2>
+      <p class="one">To defeat the sussy little dragon of Cthulhu</p>
+      <h2>Job: </h2>
+      <p class="one">Discord Admin</p>
+    </div>
     {% elif name == "Dylan Goad"%}
-    <p> {{name}} </p>
-    <p>Bio: I liek turtles </p>
-    <p> Music Genre: Minecraft Parodies</p>
-    <p>Location: Charleston, Mississippi</p>
-    <p>Dream: Work for NASA </p>
-    <p>Job: Unemployed<p>
-
-
+    <h1 class="center"> {{name}} </h1>
+    {% load static %} <img src="{% static "images/dylang.png" %}" class="img" />
+    <div>
+      <h2> Bio:</h2>
+      <p class="one"> I like turtles </p>
+      <h2>Music: </h2>
+      <p class="one"> Minecraft Parodies</p>
+      <h2> Location:</h2>
+      <p class="one"> Charleston, Mississippi</p>
+      <h2> Dream:</h2>
+      <p class="one"> Work for NASA </p>
+      <h2> Job:</h2>
+      <p class="one"> Unemployed<p class="one">
+    </div>
     {% elif name == "Dylan Shifton" or name == "Asian Markiplier"%}
-
-    <h1> {{name}} </h1>
+    <h1 class="center"> {{name}} </h1>
+    {% load static %} <img src="{% static "images/dylans.png" %}" class="img" />
     <div>
       <h2> Bio: </h2>
-      <p> Am Wasian. Am Weeb. Am Saucy Housewife.</p>
+      <p class="one"> Am Wasian. Am Weeb. Am Saucy Housewife.</p>
       <h2>Dream:</h2>
       <p>To become best Wasian.</p>
       <h2> Music:</h2>
-      <p> Everything except for rap.</p>
+      <p class="one"> Everything except for rap.</p>
       <h2>Born Location:</h2>
-      <p> Hidden Leaf Village</p>
+      <p class="one"> Hidden Leaf Village</p>
       <h2>Location:</h2>
-      <p> The Crib</p>
+      <p class="one"> The Crib</p>
       <h2> Job:</h2>
-      <p> Pizza Boi <p>
+      <p class="one"> Pizza Boi <p>
     </div>
-
-
-    
-
     {% elif name == "Mariann Mccord" or name == "Mariann"%}
-    <p>{{name}}</p>
-    <p>Bio: I am 18 years old and I enjoy listening to music in my free time along with reading, watching TV, and sleeping. </p>
-    <p>Dream: I hope to be a Software engineer with at least a Master's degree in the future and possibly try my in music production. I also want to travel the world in the meantime.</p>
-    <p> Music: R&B/ Lofi HipHop</p>
-    <p>Born Location: I am from the small town of Charleston, Mississippi.</p>
-    <p>Location: Oxford</p>
-    <p>Job: I currently work at the Newk's on University Ave in Oxford,MS. <p>
-
-
+    <h1 class = "center"> {{name}} </h1>
+    {% load static %} <img src="{% static "images/pic.JPEG" %}" class="img" />
+    <div>
+      <h2> Bio:</h2>
+      <p class ="one">I am 18 years old and I enjoy listening to music in my free time along with reading, watching TV, and sleeping. </p>
+      <h2>Dream: </h2>
+      <p class ="one"> I hope to be a Software engineer with at least a Master’s degree in the future and possibly try my in music production. I also want to travel the world in the meantime.</p>
+      <h2>Music: </h2>
+      <p class ="one"> R&B/ Lofi HipHop</p>
+      <h2> Born Location:</h2>
+      <p class ="one"> I am from the small town of Charleston, Mississippi.</p>
+      <h2> Location: </h2>
+      <p class ="one"> Oxford</p>
+      <h2> Job:</h2>
+      <p class ="one"> I currently work at the Newk’s on University Ave in Oxford,MS. <p>
+    </div>
     {% elif name == "Will Collins"%}
-     <p> {{name}} </p>
-    <p>Bio: I eat chocolate</p>
-    <p>Location: Bruce, MS</p>
-    <p>Dream:10 kids</p>
-    <p>Job: Dadd's money<p>
-
-
+    <h1 class="center"> {{name}} </h1>
+     {% load static %} <img src="{% static "images/bigchungus.png" %}" class="img" />
+    <div>
+      <h2>Bio: </h2>
+      <p class="one"> I eat chocolate</p>
+      <h2> Location:</h2>
+      <p class="one">Bruce, MS</p>
+      <h2>Dream: </h2>
+      <p class="one">10 kids</p>
+      <h2>Job: </h2>
+      <p class="one">Dadd’s money</p>
+    </div>
     {% elif name == "Logan Coley"%}
-     <p> {{name}} </p>
-    <p>Bio: I like to play Pokemon GO!</p>
-    <p>Location: South Pontotoc</p>
-    <p>Dream: To own a game development company</p>
-    <p>Job: Mommy's store<p>
-    {% elif name == "Logan Wilkans"%}
-    <p> {{name}} </p>
-    {% load static %} <img src="{% static "/images/loganw.jpg" %}" alt="home" />
-    <p>Bio: I love video games and play a large variety of them my favorites being soul calibur, halo, for honor, skyrim and fallout 4. I enjoy various forms of art as any for of expressing creativity brings me joy, I like to draw, create ships in space engineers, build models in blender, paint, write, make characters in video games, build maps in halo, etc. I also love to spar, as in sword fighting or other weapons fighting and i have practiced many martial arts to improve my sword fighting capability. Some of the martial arts i have studied involve </p>
-    <p>Dream: All my life i've wanted a role in creating video game, and it aligns with many of my favorite things to do, how ever I have to one day open a HEMA academy to teach sword play and martial arts</p>
-    <p> Favorite Music:Alternative rock is my top favorite, then there's instrumental, and dubstep... I also like christian rock</p>
-    <p>Location: Memphis</p>
-    <p>Job:  I currently work at Larsons Cashsaver Water Valley MS<p>
-
-
-    {% elif name == "Isaac Jones"%}
-     <p>Bio: I like to make things. I have a lot of creative hobbies. Drawing, Jewelry making, sewing, and playing instruments.</p>
-    <p>Dream: I want to be pursue a career in art</p>
-    <p>Music: Rock, Electronic</p>
-    <p>Born Location: Oxford </p>
-    <p>Location: Oxford </p>
-    <p>Job: Server at Newk's Eatery <p>
+    <h1 class="center"> {{name}} </h1>
+     {% load static %} <img src="{% static "images/logan.jpeg" %}" class="img" />
+    <div>
+      <h2> Bio:</h2>
+      <p class="one"> I like to play Pokemon GO!</p>
+      <h2> Location:</h2>
+      <p class="one">South Pontotoc</p>
+      <h2> Dream:</h2>
+      <p class="one"> To own a game development company</p>
+      <h2> Job:</h2>
+      <p class="one"> Mommy’s store<p>
+    </div>
+    {% elif name == "Logan Wilkins" or name == "LOGAN T WILKINS"%}
+    <h1 class="center"> {{name}} </h1>
+    {% load static %} <img src="{% static "images/loganw.jpg" %}" class="img" />
+    <div>
+      <h2> Bio:</h2>
+      <p class="one"> I love video games and play a large variety of them my favorites being soul calibur, halo, for honor, skyrim and fallout 4. I enjoy various forms of art as any for of expressing creativity brings me joy, I like to draw, create ships in space engineers, build models in blender, paint, write, make characters in video games, build maps in halo, etc. I also love to spar, as in sword fighting or other weapons fighting and i have practiced many martial arts to improve my sword fighting capability. Some of the martial arts i have studied involve </p>
+      <h2> Dream:</h2>
+      <p class="one">All my life i’ve wanted a role in creating video game, and it aligns with many of my favorite things to do, how ever I have to one day open a HEMA academy to teach sword play and martial arts</p>
+      <h2> Favorite Music:</h2>
+      <p class="one">Alternative rock is my top favorite, then there’s instrumental, and dubstep... I also like christian rock</p>
+      <h2> Location:</h2>
+      <p class="one"> Memphis</p>
+      <h2>Job: </h2>
+      <p class="one">  I currently work at Larsons Cashsaver Water Valley MS<p>
+      </div>
+    {% elif name == "Isaac Jones" or name == "Isaac"%}
+    <h1 class = "center"> {{name}} </h1>
+    {% load static %} <img src="{% static "images/isaac.png" %}" class="img" />
+    <div>
+      <h2>Bio: </h2>
+      <p class="one"> I like to make things. I have a lot of creative hobbies. Drawing, Jewelry making, sewing, and playing instruments.</p>
+      <h2> Dream:</h2>
+      <p class="one"> I want to be pursue a career in art</p>
+      <h2>Music:</h2>
+      <p class="one"> Rock, Electronic</p>
+      <h2>Born Location: </h2>
+      <p class="one"> Oxford </p>
+      <h2>Location: </h2>
+      <p class="one"> Oxford </p>
+      <h2>Job:</h2>
+      <p class="one">Server at Newk’s Eatery <p>
+    </div>
     {% elif name == "Ryan Bennett"%}
-    <p> {{name}} </p>
-    <p>Bio: I'm a boring guy who plays video games.</p>
-    <p>Music: Classic Country</p>
-    <p>Dream: Become a video game developer</p>
-    <p>Born Saltillo, Mississippi</p>
-    <p>Location: Saltillo, Mississippi</p>
-    <p>Job: Server/Delivery Driver<p>
-    
+    <h1 class="center"> {{name}} </h1>
+     {% load static %} <img src="{% static "images/Laughing-Char.jpg" %}" class="img" />
+    <div>
+      <h2>Bio: </h2>
+      <p class="one"> I’m a boring guy who plays video games.</p>
+      <h2> Music:</h2>
+      <p class="one">Classic Country</p>
+      <h2>Dream: </h2>
+      <p class="one"> Become a video game developer</p>
+      <h2> Born Location:</h2>
+      <p class="one">Saltillo, Mississippi</p>
+      <h2> Location:</h2>
+      <p class="one"> Saltillo, Mississippi</p>
+      <h2>Job: </h2>
+      <p class="one"> Server/Delivery Driver</p>
+    </div>
     {% elif name == "Randy Trullet"%}
-    <p> {{name}}</p>
-     <p>Bio:"Oh my days"
-        British Wannabe
-        Future Application Developer</p>
-    <p> Music: Melbourne Bounce and Folk</p>
-    <p>Dream: I want a house and a dog, that's about it. Also want a computer, that's a priority</p>
-    <p>Location: Corinth, MS</p>
-    
-    <p>Job: Student <p>
-
-
+    <h1 class="center"> {{name}}</h1>
+     {% load static %} <img src="{% static "images/tem.png" %}" class="img" />
+    <div>
+      <h2>Bio: </h2>
+      <p class="one">“Oh my days”
+          British Wannabe
+          Future Application Developer</p>
+      <h2>Music: </h2>
+      <p class="one"> Melbourne Bounce and Folk</p>
+      <h2>Dream:</h2>
+      <p class="one"> I want a house and a dog, that’s about it. Also want a computer, that’s a priority</p>
+      <h2>Location: </h2>
+      <p class="one"> Corinth, MS</p>
+      <h2> Job:</h2>
+      <p class="one"> Student </p>
+    </div>
     {% elif name == "Justin Ashmore"%}
-    <p> {{name}} </p>
-    <p>Bio: I like to snack on chips, watch cop shows, and play video games</p>
-    <p>Dream: Have a big family and have good amount of money</p>
-    <p> Born Location: Florida</p>
-    <p>Location: Bruce, MS</p>
-    <p>Job:  Sosa Law Care<p>
-
-
+    <h1 class="center"> {{name}} </h1>
+     {% load static %} <img src="{% static "images/me.png" %}" class="img" />
+    <div>
+      <h2>Bio: </h2>
+      <p class="one"> I like to snack on chips, watch cop shows, and play video games</p>
+      <h2>Dream: </h2>
+      <p class="one"> Have a big family and have good amount of money</p>
+      <h2>Born Location: </h2>
+      <p class="one">  Florida</p>
+      <h2> Location:</h2>
+      <p class="one"> Bruce, MS</p>
+      <h2>Job: </h2>
+      <p class="one"> Sosa Law Care</p>
+    </div>
     {% elif name == "RJay Pickering"%}
-    <p> {{name}}</p>
-    <p>Bio: I like to play video games and fix broken vehicles.  i use to go to the gym alot and i love working around a farm</p>
-    <p>Dream: videogame designer </p>
-    <p>Music: heavy rock</p>
-    
-    <p>Location: Pontotoc, MS</p>
-    <p>Job: student/farmer <p>
+    <h1 class="center"> {{name}}</h1>
+    {% load static %} <img src="{% static "images/r.jpeg" %}" class="img" />
+    <div>
+      <h2> Bio: </h2>
+      <p class="one"> I like to play video games and fix broken vehicles.  i use to go to the gym alot and i love working around a farm</p>
+      <h2> Dream:</h2>
+      <p class="one"> videogame designer </p>
+      <h2> Music:</h2>
+      <p class="one"> heavy rock</p>
+      <h2> Location:</h2>
+      <p class="one"> Pontotoc, MS</p>
+      <h2> Job:</h2>
+      <p class="one"> student/farmer </p>
+    </div>
     {% elif name == "Daelan Hollingsworth" or name == "Daelan"%}
-     <p>Bio: I have always liked to play video games and I was in band.</p>
-    <p>Dream: None</p>
-    <p> Music: Any music will do. </p>
-    <p>Location: Pontotoc, MS </p>
-    <p>Job: I deliver at Domino's. <p>
-
-
+    <h1 class="center"> {{name}}</h1>
+     {% load static %} <img src="{% static "images/Dalen.jpg" %}" class="img" />
+    <div>
+      <h2>Bio: </h2>
+      <p class="one"> I have always liked to play video games and I was in band.</p>
+      <h2>Dream: </h2>
+      <p class="one"> None</p>
+      <h2> Music:</h2>
+      <p class="one">Any music will do. </p>
+      <h2> Location:</h2>
+      <p class="one"> Pontotoc, MS </p>
+      <h2> Job:</h2>
+      <p class="one"> I deliver at Domino’s. </p>
+    </div>
     {% elif name == "Rylee Chisholm"%}
-     <p>Bio:5'5 and clingy, but thats okay.</p>
-    <p>Dream: To be 6ft tall.  I did dream once about this really weird fun house with a serial killer dressed as a neon pumpkin. </p>
-    <p> Music: Pop and anything that sounds terrible.</p>
-    <p> Born Location: Mom</p>
-   
-    <p>Job:  Hometown Pizza delivery driver and cook<p>
-     
-     
+    <h1 class="center"> {{name}}</h1>
+    {% load static %} <img src="{% static "images/image0.png" %}" class="img1" />
+    <div>
+      <h2>Bio: </h2>
+      <p class="one">5'5 and clingy, but thats okay.</p>
+      <h2>Dream: </h2>
+      <p class="one"> To be 6ft tall.  I did dream once about this really weird fun house with a serial killer dressed as a neon pumpkin. </p>
+      <h2>Music: </h2>
+      <p class="one">  Pop and anything that sounds terrible.</p>
+      <h2>Born Location: </h2>
+      <p class="one"> Mom</p>
+      <h2>Job: </h2>
+      <p class="one"> Hometown Pizza delivery driver and cook</p>
+    </div>
      {% elif name == "Michelle Rankin"%}
-    <p>Bio: Lazy, Uncoordinated , Unprofessional, Hard Working </p>
-    <p>Dream: Make the Mula </p>
-    <p> Music: Post Hardcore</p>
-    <p> Born Location: Louisiana</p>
-    <p>Location: Oxford</p>
-    <p>Job: Server at HomeTown Pizza <p>
-
+     <h1 class="center"> {{name}} </h1>
+      {% load static %} <img src="{% static "images/profile.jpg" %}" class="img" />
+     <div>
+        <h2>Bio: </h2>
+        <p class="one"> Lazy, Uncoordinated , Unprofessional, Hard Working </p>
+        <h2>Dream: </h2>
+        <p class="one"> Make the Mula </p>
+        <h2>Music: </h2>
+        <p class="one"> Post Hardcore</p>
+        <h2>Born Location: </h2>
+        <p class="one"> Louisiana</p>
+        <h2>Location: </h2>
+        <p class="one">Oxford</p>
+        <h2> Job:</h2>
+        <p class="one"> Server at HomeTown Pizza </p>
+     </div>
     {% else %}
-    <p> Person does not attend BCCA or Does not currently have a permit</p>
-
-    
+    <p> Person does not attend BCCA or Does not currently have a profile</p>
     {% endif %}
-
   </body>
 </html>

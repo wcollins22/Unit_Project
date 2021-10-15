@@ -8,4 +8,5 @@ urlpatterns = [
     path("profile/", app.views.profile_function, name="pf"),
     path("person/<u_name>/", app.views.page_view, name="person"),
     path("home/", app.views.home_view, name="home"),
+    
 ]

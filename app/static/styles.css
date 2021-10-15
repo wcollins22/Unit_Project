@@ -26,3 +26,47 @@ div {
   margin-right: -1px;
   margin-left: -2px;
 }
+
+.img {
+  width: 300px;
+  height: 200px;
+  border-radius: 70%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1em;
+  margin-top: -10px;
+}
+
+.center {
+  text-align: center;
+}
+
+p.one {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+h2 {
+  border-bottom: solid black;
+}
+
+.img1 {
+  width: 300px;
+  height: 500px;
+  border-radius: 70%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0;
+  margin-bottom: -7em;
+  margin-top: -10em;
+}
+.img2 {
+  width: 400px;
+  height: 300px;
+  border-radius: 70%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1em;
+  margin-top: -10px;
+}
