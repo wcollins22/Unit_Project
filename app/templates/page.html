@@ -8,6 +8,57 @@
     <link rel="stylesheet" href="{% static 'ourcss.css'%}">
   </head>
     <body>
+      {% if name == "Will Collins" %}
+        {% load static %} <img src="{% static 'images/Will Collins.png' %}">
+
+      {% elif name == "Justins Ashmore"%}
+        {% load static %}<img src="{% static 'images/Justin Ashmore.png' %}">
+
+      {% elif name == "Logan Coley"%}
+        {% load static %}<img src="{% static 'images/Logan Coley.jpeg' %}">
+
+      {% elif name == "Dylan Goad" %}
+        {% load static %}<img src="{% static 'images/Dylan Goad.png' %}">
+
+      {% elif name == "Daelan" %}
+        {% load static %}<img src="{% static 'images/Daelan.jpg' %}">
+
+      {% elif name == "Dylan Shipton" %}
+        {% load static %}<img src="{% static 'images/Dylan SHipton.png' %}">
+
+      {% elif name == "LOGAN T WILKINS" %}
+        {% load static %}<img src="{% static 'images/LOGAN T WILKINS.jpg' %}">
+
+      {% elif name == "Ethan Ward" %}
+        {% load static %}<img src="{% static 'images/Ethan Ward.jpg' %}">
+
+      {% elif name == "Jacen Barefoot" %}
+        {% load static %}<img src="{% static 'images/Jacen Barefoot.png' %}">
+
+      {% elif name == "Isaac" %}
+        {% load static %}<img src="{% static 'images/Isaac.png' %}">
+
+      {% elif name == "Mariann"%}
+        {% load static %}<img src="{% static 'images/Mariann.JPEG' %}">
+
+      {% elif name == "Michelle Rankin" %}
+        {% load static %}<img src="{% static 'imaages/Michelle Rankin.jpg' %}">
+
+      {% elif name == "Quinton Summerford" %}
+        {% load static %}<img src="{% static 'images/Quinton Summerford.png' %}">
+
+      {% elif name == "Randy Trullet" %}
+        {% load static %}<img src="{% static 'images/Randy Trullet.png' %}">
+
+      {% elif name == "RJay Pickering" %}
+        {% load static %}<img src="{% static 'images/RJay.jpeg' %}">
+
+      {% elif name == "Ryan Bennett" %}
+        {% load static %}<img src="{% static 'images/Ryan Bennett.jp' %}">
+
+      {% elif name == "Rylee Chisholm" %}
+        {% load static %}<img src="{% static 'images/Rylee Chisolm.png' %}">
+      {% endif %}
       {% for student, info in students.items %}
         {% if student == name %}
         <h1>{{info.u_name}}</h1>
