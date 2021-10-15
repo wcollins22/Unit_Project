@@ -26,14 +26,9 @@ ul {
 }
 
 div {
-  border: solid 5px white;
-  border-right: solid 10px rgb(127 211 238);
-  border-bottom: solid 10px rgb(127 211 238);
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  height: 10em;
-  width: 88em;
+  border: solid 10px white;
+  border-right: solid 15px rgb(127 211 238);
+  border-bottom: solid 15px rgb(127 211 238);
 }
 
 .homelink {
@@ -58,9 +53,13 @@ div {
 
 p.one {
   font-family: Georgia, "Times New Roman", Times, serif;
+  text-align: center;
+  font-size: 20px;
 }
 h2 {
   border-bottom: solid black;
+  font-size: 25px;
+  padding-left: 5px;
 }
 
 .img1 {
