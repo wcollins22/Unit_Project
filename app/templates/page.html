@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="{% static 'ourcss.css'%}">
   </head>
     <body>
+    {% load static %} <img src="{% static 'images/{{name}}.png' %}"
       {% for student, info in students.items %}
         {% if student == name %}
         <h1>{{info.u_name}}</h1>
