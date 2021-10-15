@@ -1,17 +1,33 @@
-{% extends 'home.html' %}
-{% block content %}
-{% for name, info in students %}
-    {% if name == u_name %}
-        <h1>{{name.info}}</h1>
-    {% endif %}
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="{% static 'styles.css'%}">
+  </head>
+    <body>
+      {% for student, info in students.items %}
+        {% if student == name %}
+        <h1>{{info.u_name}}</h1>
 
+        <h2>Bio:</h2>
+        <h3>{{info.bio}}</h3>
 
+        <h2>Dream:</h2>
+        <h3>{{info.dream}}</h3>
 
-{% endfor %}
+        <h2>Favorite Music Taste</h2>
+        <h3>{{info.fav_genre}}</h3>
 
+        <h2>Job:</h2>
+        <h3>{{info.job}}</h3>
 
+        <h2>HomeTown</h2>
+        <h3>{{info.hometown}}</h3>
+        {% endif %}
+      {% endfor %}
 
-
-
-
-{% endblock content %}
+      <a class="homelink" href="{% url 'hpnew' %}">Home</a>
+    </body
